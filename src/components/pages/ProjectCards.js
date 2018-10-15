@@ -28,7 +28,7 @@ const projects = [
         title: "ImageDetection", image: "/facedetection.png", desc: "Use Google Vision API with your webcam!", id: 7, link: "https://face-detection6969.herokuapp.com/"
     },
     {
-        title: "CLI-mazon", image: "/bamazon.png", desc: "NodeJS CLI app simulates inventory using SQL", id: 8, link: "https://github.com/dkubiak1/bamazon"
+        title: "CLI-mazon", image: "portfolio/public/bamazon.png", desc: "NodeJS CLI app simulates inventory using SQL", id: 8, link: "https://github.com/dkubiak1/bamazon"
     }
 ]
 
