@@ -219,7 +219,7 @@ a > i:hover {
     cursor: pointer;
 }
 
-.about > div > span {
+.about > div > div> span {
     background: purple;
     font-size: 16px;
     padding: 5px;
@@ -229,6 +229,44 @@ a > i:hover {
    
 }
 
+.about > div > div {
+    border-right: 3px solid rgb(173, 107, 197) !important;
+    border-bottom: 3px solid purple !important;
+    padding: 5px;
+    height: 150px;
+    border-style: none double double none;
+    border-radius: 0px !important;
+    /*box-shadow: 1px 3px 2px #401346;*/
+    -webkit-border-image: 
+    -webkit-gradient(linear, 0 0, 0 50%, from(white), to(rgb(173, 107, 197))) 1 50%;
+  -webkit-border-image: 
+    -webkit-linear-gradient(white, rgb(173, 107, 197)) 1 50%;
+  -moz-border-image:
+    -moz-linear-gradient(white, rgb(173, 107, 197)) 1 50%;    
+  -o-border-image:
+    -o-linear-gradient(white, rgb(173, 107, 197)) 1 50%;
+  border-image:
+    /*linear-gradient(to bottom, white, rgb(173, 107, 197)) 1 50%;*/
+    linear-gradient(15deg, white, rgb(173, 107, 197)) 1 50%;
+    /*background: pink;*/
+
+    border-image-slice: 1;
+}
+/*
+.about > div > div:before {
+    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(transparent, #000);
+    background-image: -moz-linear-gradient(transparent, #000);
+    background-image: -o-linear-gradient(transparent, #000);
+} 
+
+.about > div > div:after {
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(left, #000, transparent);
+    background-image: -moz-linear-gradient(left, #000, transparent);
+    background-image: -o-linear-gradient(left, #000, transparent);
+}
+*/
 .about {
     /*display: inline-block;*/
     /*display: grid;
@@ -665,8 +703,8 @@ hr {
     color: goldenrod;
     line-height: 1.4;
     background: rgb(81, 82, 82) !important;
-   /* -webkit-transform: translateY(50%) translateZ(0);
-    -ms-transform: translateY(50%);*/
+    -webkit-transform: translateY(0%) translateZ(0);
+    -ms-transform: translateY(0%) translateZ(0);
     transform: translateY(0%) translateZ(0);
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
@@ -750,17 +788,17 @@ hr {
     outline-offset: -2px;*/
   }
   .card:focus .card-body, .card:hover .card-body {
-  /*  -webkit-transform: translateX(50%) translateY(50%) translateZ(50%);
-    -ms-transform: translateX(50%) translateY(50%);*/
+    -webkit-transform: translateX(0%) translateY(50%) translateZ(0%);
+    -ms-transform: translateX(0%) translateY(50%) translateZ(0%);
     transform: translateX(0%) translateY(50%) translateZ(0%);
    
     /*height: 20%;*/
   }
   .card:focus img, .card:hover img {
-   /* -webkit-transform: translateX(0%) translateY(0%) translateZ(0) scale(.9);
-    -moz-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.9);
-    -ms-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.9);
-    -o-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(.9);*/
+    -webkit-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
+    -moz-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
+    -ms-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
+    -o-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
     transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
     
   }

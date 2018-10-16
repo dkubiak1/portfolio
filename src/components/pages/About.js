@@ -10,35 +10,45 @@ class About extends React.Component {
 
     return (
       <div className="about-container">
-      <div className="item about" id="about" >
-       
+      <div className="item about" id="about">       
         <div>
+          <div>
         <Badge>
           Who I Am:
         </Badge>
+        
         <p>A fullstack web-developer with a passion for both design <i>and</i> databases!</p>
+        </div> 
         </div>
         <div>
+          <div>
           <Badge>What I Like to Do:
           </Badge>
          <p>Design apps, websites, games and more!</p>
         </div>
+        </div>
         <div>
+          <div>
           <Badge>Languages I Speak:
           </Badge>
         
-          <p>Javascript, NodeJS, SQL, HTML, and CSS</p>
+          <p>Javascript, C#, NodeJS, SQL, HTML, and CSS</p>
+        </div>
         </div>
         <div>
+          <div>
           <Badge>Tools I Use:
           </Badge>
        <p>Express, Axios, Babel, Webpack, Jest, Nightmare, MongoDB/Mongoose, MySQL/Sequelize, NodeCLI, and more!</p>
         </div>
+        </div>
         <div>
+          <div>
           <Badge>Frameworks/Libraries:
           </Badge>
        <p>React, Pixi, Phaser, JQuery and more!</p>
-        </div>      
+        </div> 
+        </div>     
 
       
       </div>

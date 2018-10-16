@@ -42,7 +42,7 @@ render() {
       <Card key={this.props.id} id={"Popover"+this.props.id} className="card" onClick={this.props.onClick}>
       
       <a className="card-div" href={this.props.link} >
-        <img  src={this.props.image} alt="Card image cap" className="card-img" onMouseEnter={() =>{this.onMouseEnter()}} onMouseLeave={() => {this.onMouseLeave()}}/>
+        <img  src={this.props.image} alt={this.props.desc} className="card-img" onMouseEnter={() =>{this.onMouseEnter()}} onMouseLeave={() => {this.onMouseLeave()}}/>
       
         
         <CardBody className="card-body">
