@@ -46,7 +46,7 @@ class About extends React.Component {
           <div>
           <Badge>Frameworks/Libraries:
           </Badge>
-       <p>React, Pixi, Phaser, JQuery and more!</p>
+       <p>React, DotNet, PixiJS, PhaserJS, JQuery and more!</p>
         </div> 
         </div>     
 

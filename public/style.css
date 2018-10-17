@@ -129,6 +129,7 @@ h1 {
     float: left;
     top: 15px;
     opacity: 0.7;
+    width: 50px;
 }
 
 .banner-name {
@@ -137,6 +138,7 @@ h1 {
     left: 100px;
     top: -42px;
     font-family: Arvo, sans-serif;
+    width: 200px;
 
 }
 
@@ -374,6 +376,8 @@ a:hover {
 
 .nav-container {
     display: inline-flex;
+    margin-left: -50px;
+    margin-top: 25px;
 }
 .nav-link.active:hover {
     /*color: black !important;*/
@@ -466,6 +470,17 @@ hr {
         display: none !important;    
     }
  }  
+
+@media only screen and (max-width: 750px) {
+    
+    .banner {
+        display: none !important;    
+    }
+
+    .nav-container {
+        margin-left: 50px;
+    }
+} 
 
  @media only screen and (min-width: 581px) {
     .about {
