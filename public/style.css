@@ -227,6 +227,7 @@ a > i:hover {
     padding: 5px;
     /*box-shadow: 2px 3px 8px #8888ff;*/
     font-family: 'Arvo', serif !important;
+    margin-bottom: 20px;
 
    
 }
