@@ -28,6 +28,7 @@ body {
     -o-transition-property: opacity;
     transition-property: opacity;
     text-align: center;
+    font-size: 16px;
 }
 
 h1 {
@@ -44,7 +45,7 @@ h1 {
    /* background: rgb(91, 60, 104);*/
     background: white;
     color: black;
-    box-shadow: 5px 10px 8px #401346;
+    /* box-shadow: 5px 10px 8px #401346; */
     margin-left: auto;
     margin-right: auto;
    /* width: 60%;*/
@@ -85,7 +86,7 @@ h1 {
     transition-property: opacity;
     /*position: absolute;*/
     left: 0;
-    font-size: 14px;
+    /* font-size: 14px; */
 
 }
 
@@ -318,7 +319,7 @@ div > .contact-icons:hover {
     width: 70%;
     height: 100%;
     box-shadow: none;
-    padding: 10px;
+    padding: 0.1em;
    /* background: #9999ff; */
    /*background: rgb(227, 207, 230);*/
    background: white;
@@ -409,8 +410,8 @@ a:hover {
 
 .nav-container {
     display: inline-flex;
-    margin-left: -50px;
-    margin-top: 25px;
+    margin-left: -6em;
+    margin-top: 2em;
 }
 .nav-link.active:hover {
     /*color: black !important;*/
@@ -424,11 +425,11 @@ a:hover {
 
 hr {
     max-width: 0px;
-    height: 3px;
+    height: 0.2em;
     transition: max-width .3s;
     background: black;
    /* margin: 0 !important;*/
-   margin-top: 10px;
+   margin-top: 0.2em;
    /*margin-left: 20px;*/
 
 }
@@ -551,7 +552,7 @@ hr {
     }
 
     .nav-container {
-        margin-left: 50px;
+        margin-left: 12em;
     }
 
     .card {
@@ -774,7 +775,8 @@ hr {
     position: relative;
     overflow: hidden;
     word-break: break-word;
-    height: 270px;
+    /* height: 270px; */
+    height: 18em;
     cursor: pointer;
    
  }    
@@ -961,7 +963,7 @@ hr {
   
   .fa-arrow-alt-circle-up {
       position: fixed;
-      top: 5em;
+      top: 7em;
       /*font-size: 60px;*/
       /*font-size: 4.17vw;*/
       font-size: 4.17em;
@@ -974,7 +976,7 @@ hr {
       
       top: -0px;*/
       /*left: 65rem;*/
-      left: 18em;
+      left: 16em;
       z-index: 100;
       border-radius: 50% !important;
       transition: opacity 0.3s;
