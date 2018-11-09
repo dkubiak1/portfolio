@@ -824,7 +824,7 @@ hr {
   .card-title {
       color: goldenrod;
       font-family: 'Permanent Marker', cursive !important;
-      font-size: 1.3em;
+      font-size: 1.0em;
   }
   
   .card-body {
@@ -960,7 +960,7 @@ hr {
   
   .fa-arrow-alt-circle-up {
       position: fixed;
-      top: 20em;
+      top: 5em;
       /*font-size: 60px;*/
       /*font-size: 4.17vw;*/
       font-size: 4.17em;
@@ -973,7 +973,7 @@ hr {
       
       top: -0px;*/
       /*left: 65rem;*/
-      left: 50em;
+      left: 15em;
       z-index: 100;
       border-radius: 50% !important;
       transition: opacity 0.3s;
