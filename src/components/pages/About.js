@@ -17,7 +17,7 @@ class About extends React.Component {
           Who I Am:
         </Badge>
         
-        <p>A fullstack web-developer with a passion for both design <i>and</i> databases!</p>
+        <p>A full-stack developer capable of app design, database management and more, from development through deployment.</p>
         </div> 
         </div>
         <div>
@@ -56,7 +56,7 @@ class About extends React.Component {
     );
   }
 }
-{/* <p>
+/*{ <p>
 Daniel Kubiak is a full-stack developer and indie game designer specializing in:
 <ul>
   <li>
@@ -75,6 +75,7 @@ Daniel Kubiak is a full-stack developer and indie game designer specializing in:
     JQuery, Phaser JS, and Pixi JS
   </li>
 </ul>
-</p> */}
+</p> }*/
+//A fullstack web-developer with a passion for both design <i>and</i> databases!
 
 export default About;

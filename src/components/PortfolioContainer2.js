@@ -65,6 +65,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="container2">
+      <a className="abs" href="#section0"><i className="far fa-arrow-alt-circle-up"></i></a>
         <ScrollableAnchor id={'section0'}>
         <div>
         <NavTabs
@@ -82,7 +83,7 @@ class Portfolio extends Component {
         </ScrollableAnchor>
         
        
-        <a className="abs" href="#section0"><i className="far fa-arrow-alt-circle-up"></i></a>
+        
         <ScrollableAnchor id={'section2'}>
         <div>
         <About 
@@ -91,7 +92,7 @@ class Portfolio extends Component {
         </div>
         </ScrollableAnchor>
         
-        <a className="abs" href="#section0"><i className="far fa-arrow-alt-circle-up"></i></a>
+        
         <ScrollableAnchor id={'section3'}>
         <div>
         <Contact
@@ -108,4 +109,5 @@ class Portfolio extends Component {
   }
 }
 //<Projects />
+//<a className="abs" href="#section0"><i className="far fa-arrow-alt-circle-up"></i></a>
 export default Portfolio;

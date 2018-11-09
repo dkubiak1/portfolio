@@ -13,6 +13,7 @@ class CardModel extends Component{
         this.onMouseEnter=this.onMouseEnter.bind(this);
         this.onMouseLeave=this.onMouseLeave.bind(this);
         this.toggle = this.toggle.bind(this);
+        this.onClick = this.onClick.bind(this);
     }
 
     onMouseEnter() {
@@ -33,27 +34,37 @@ class CardModel extends Component{
           popoverOpen: !this.state.popoverOpen
         });
     }    
+
+    onClick() {
+        
+    }
     
 render() {
 
 
   return (
     
-      <Card key={this.props.id} id={"Popover"+this.props.id} className="card" onClick={this.props.onClick}>
+    <Card key={this.props.id} id={"Popover"+this.props.id} className="card" onClick={this.props.onClick}>
       
-      <a className="card-div" href={this.props.link} >
-        <img  src={this.props.image} alt={this.props.desc} className="card-img" onMouseEnter={() =>{this.onMouseEnter()}} onMouseLeave={() => {this.onMouseLeave()}}/>
+    
+        <img  src={this.props.image} alt={this.props.desc} className="card-img" onMouseEnter={() =>{this.onMouseEnter()}} onMouseLeave={() => {this.onMouseLeave()}}/>       
+    
+    <CardBody className="card-body">
       
+    <a  href={this.props.link} > 
+        <CardTitle className="card-title">{this.props.title}</CardTitle>
+
+        <CardSubtitle>{this.props.subtitle}</CardSubtitle>
+        <CardText className="card-div">{this.props.desc}</CardText>
+    </a>       
+    <a href={this.props.ghlink}><p className="ghlink"  >{this.props.ghlink}</p></a>
+    
+     
+    </CardBody>
+   
+     
         
-        <CardBody className="card-body">
-          <CardTitle>{this.props.title}</CardTitle>
-          <CardSubtitle>{this.props.subtitle}</CardSubtitle>
-          <CardText>{this.props.desc}</CardText>
-          
-        </CardBody>
        
-        
-        </a>
        
        
       </Card>

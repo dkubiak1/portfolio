@@ -45,7 +45,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="item contact" id="contact" >
-        
+        <p className="email">dan.kubiak@gmail.com</p>
       
         <div className="icons">
         <span id="Tooltip1">
