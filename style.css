@@ -28,7 +28,7 @@ body {
     -o-transition-property: opacity;
     transition-property: opacity;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h1 {
@@ -963,7 +963,7 @@ hr {
   
   .fa-arrow-alt-circle-up {
       position: fixed;
-      top: 7em;
+      top: 10em;
       /*font-size: 60px;*/
       /*font-size: 4.17vw;*/
       font-size: 4.17em;
@@ -976,7 +976,7 @@ hr {
       
       top: -0px;*/
       /*left: 65rem;*/
-      left: 16em;
+      left: 18em;
       z-index: 100;
       border-radius: 50% !important;
       transition: opacity 0.3s;
