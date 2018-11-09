@@ -28,6 +28,7 @@ body {
     -o-transition-property: opacity;
     transition-property: opacity;
     text-align: center;
+    font-size: 20px;
 }
 
 h1 {
@@ -85,7 +86,7 @@ h1 {
     transition-property: opacity;
     /*position: absolute;*/
     left: 0;
-    font-size: 14px;
+    /* font-size: 14px; */
 
 }
 
