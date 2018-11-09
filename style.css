@@ -968,7 +968,8 @@ hr {
   
   .fa-arrow-alt-circle-up {
       position: fixed;
-      top: 9.2em;
+      /* top: 8.0em; */
+      bottom: 30px;
       /*font-size: 60px;*/
       /*font-size: 4.17vw;*/
       font-size: 4.17em;
@@ -981,7 +982,8 @@ hr {
       
       top: -0px;*/
       /*left: 65rem;*/
-      left: 18em;
+      /* left: 18em; */
+      right: 50px;
       z-index: 100;
       border-radius: 50% !important;
       transition: opacity 0.3s;
