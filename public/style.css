@@ -33,7 +33,7 @@ body {
 h1 {
     /*font-size: 24px;*/
     /*font-size: 1.67vw;*/
-    font-size: 1.67rem;
+    font-size: 1.67em;
     text-align: center;
     /*color: red;*/
 }
@@ -108,7 +108,7 @@ h1 {
     min-height: 70px;
     max-height: 70px;*/
     /*font-size: 1.8vw;*/
-    font-size: 1.4rem;
+    font-size: 1.4em;
 
     float: right;
     color: white;
@@ -133,9 +133,9 @@ h1 {
     /*left: -1100px !important;*/
     /*font-size: 45px;*/
     /*font-size: 4.53vw;*/
-    font-size: 3.73rem;
+    font-size: 3.73em;
     float: left;
-    top: 0.2rem;
+    top: 0.2em;
     opacity: 0.7;
     width: 50px;
 }
@@ -170,7 +170,7 @@ h1 {
 
     /*font-size: 60px;*/
     /*font-size: 4.17vw;*/
-    font-size: 4.17rem;
+    font-size: 4.17em;
     margin-top: 30px;
     border: 2px solid black;
     /*color: rgb(78, 78, 78);*/
@@ -187,7 +187,7 @@ h1 {
     justify-content: center;
     /*font-size: 60px;*/
     /*font-size: 4.17vw;*/
-    font-size: 4.17rem;
+    font-size: 4.17em;
     top: 20px;
     padding: 20px;
     border: 2px solid #8888ff;
@@ -251,7 +251,7 @@ div > .contact-icons:hover {
     background: purple;
     /*font-size: 16px;*/
     /*font-size: 1.11vw;*/
-    font-size: 1.11rem;
+    font-size: 1.11em;
     padding: 5px;
     /*box-shadow: 2px 3px 8px #8888ff;*/
     font-family: 'Arvo', serif !important;
@@ -306,7 +306,7 @@ div > .contact-icons:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     
 
     /*flex-direction: column;
@@ -823,7 +823,7 @@ hr {
   .card-title {
       color: goldenrod;
       font-family: 'Permanent Marker', cursive !important;
-      font-size: 0.8em;
+      font-size: 0.9em;
   }
   
   .card-body {
@@ -855,7 +855,7 @@ hr {
     font-family: 'Permanent Marker', cursive !important;
     /*font-size: 32px !important;*/
    /* font-size: 2.02vw !important;*/
-    font-size: 2.02rem !important;
+    font-size: 2.02em !important;
     text-decoration: none !important;
     border-radius: 0;
    /* height: 270px;*/
@@ -885,7 +885,7 @@ hr {
     /*min-height: 270px;*/
    /* background: #f9f9f9; */
    /*font-size: 1.072vw !important;*/
-   font-size: 1.072rem !important;
+   font-size: 1.072em !important;
     color: #f9f9f9;
     text-align: center;
     text-decoration: none !important;
@@ -950,7 +950,7 @@ hr {
   }
 
   .ghlink {
-      font-size: 1.0rem !important;
+      font-size: 1.0em !important;
       color: darkblue;
       text-decoration: underline;
       z-index: 100;
@@ -958,10 +958,10 @@ hr {
   
   .fa-arrow-alt-circle-up {
       position: fixed;
-      top: 30rem;
+      top: 30em;
       /*font-size: 60px;*/
       /*font-size: 4.17vw;*/
-      font-size: 4.17rem;
+      font-size: 4.17em;
       /*position: absolute;*/
       opacity: 0.2;
      /* position: absolute;*/
@@ -971,7 +971,7 @@ hr {
       
       top: -0px;*/
       /*left: 65rem;*/
-      left: 65rem;
+      left: 65em;
       z-index: 100;
       border-radius: 50% !important;
       transition: opacity 0.3s;
