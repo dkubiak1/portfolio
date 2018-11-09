@@ -12,7 +12,7 @@
 body {
     /*background-image: radial-gradient(circle, rgb(67, 29, 110), rgb(130, 103, 161), rgb(106, 98, 219));*/
     background: white;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     opacity: 0;
 
     z-index: 10;
@@ -170,7 +170,7 @@ h1 {
 
     /*font-size: 60px;*/
     /*font-size: 4.17vw;*/
-    font-size: 4.17em;
+    font-size: 5.17em;
     margin-top: 30px;
     border: 2px solid black;
     /*color: rgb(78, 78, 78);*/
@@ -233,7 +233,7 @@ div > .contact-icons {
 }
 
 .email {
-    font-size: 1.2em;
+    font-size: 1.8em;
 }
 
 
@@ -824,7 +824,7 @@ hr {
   .card-title {
       color: goldenrod;
       font-family: 'Permanent Marker', cursive !important;
-      font-size: 0.9em;
+      font-size: 1.3em;
   }
   
   .card-body {
@@ -886,7 +886,7 @@ hr {
     /*min-height: 270px;*/
    /* background: #f9f9f9; */
    /*font-size: 1.072vw !important;*/
-   font-size: 0.6em !important;
+   font-size: 0.75em !important;
     color: #f9f9f9;
     text-align: center;
     text-decoration: none !important;
@@ -960,7 +960,7 @@ hr {
   
   .fa-arrow-alt-circle-up {
       position: fixed;
-      top: 30em;
+      top: 20em;
       /*font-size: 60px;*/
       /*font-size: 4.17vw;*/
       font-size: 4.17em;
@@ -973,7 +973,7 @@ hr {
       
       top: -0px;*/
       /*left: 65rem;*/
-      left: 65em;
+      left: 50em;
       z-index: 100;
       border-radius: 50% !important;
       transition: opacity 0.3s;
