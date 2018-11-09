@@ -306,7 +306,7 @@ div > .contact-icons:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    font-size: 1.1em;
+    font-size: 1.3em;
     
 
     /*flex-direction: column;
@@ -378,6 +378,7 @@ a:hover {
     width: 100%;
     margin: 0 !important;
     border: none !important;
+    font-size: 1.2em !important;
    /* border: 1px solid red !important;*/
 }
 
@@ -885,7 +886,7 @@ hr {
     /*min-height: 270px;*/
    /* background: #f9f9f9; */
    /*font-size: 1.072vw !important;*/
-   font-size: 1.072em !important;
+   font-size: 0.6em !important;
     color: #f9f9f9;
     text-align: center;
     text-decoration: none !important;
@@ -950,10 +951,11 @@ hr {
   }
 
   .ghlink {
-      font-size: 1.0em !important;
+      font-size: 0.7em !important;
       color: darkblue;
       text-decoration: underline;
       z-index: 100;
+      font-family: 'Courier New', Courier, monospace;
   }
   
   .fa-arrow-alt-circle-up {
