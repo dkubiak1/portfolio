@@ -170,7 +170,7 @@ h1 {
 
     /*font-size: 60px;*/
     /*font-size: 4.17vw;*/
-    font-size: 5.17em;
+    font-size: 6.17em;
     margin-top: 30px;
     border: 2px solid black;
     /*color: rgb(78, 78, 78);*/
@@ -187,7 +187,7 @@ h1 {
     justify-content: center;
     /*font-size: 60px;*/
     /*font-size: 4.17vw;*/
-    font-size: 4.17em;
+    font-size: 5.17em;
     top: 20px;
     padding: 20px;
     border: 2px solid #8888ff;
@@ -824,7 +824,7 @@ hr {
   .card-title {
       color: goldenrod;
       font-family: 'Permanent Marker', cursive !important;
-      font-size: 1.0em;
+      font-size: 0.8em;
   }
   
   .card-body {
