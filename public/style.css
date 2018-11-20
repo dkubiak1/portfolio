@@ -918,7 +918,7 @@ hr {
     right: 0;
     bottom: 0;
   }*/
-  .card  img {
+  .card img {
     position: absolute;
    /* top: 50%;
     left: 50%;*/
@@ -936,6 +936,7 @@ hr {
     transform: translateX(0) translateY(0%) translateZ(0);
     z-index: 3;
     text-decoration: none !important;
+    object-fit: cover;
   }
  
   .card a:focus {
@@ -946,14 +947,16 @@ hr {
     -webkit-transform: translateX(0%) translateY(50%) translateZ(0%);
     -ms-transform: translateX(0%) translateY(50%) translateZ(0%);
     transform: translateX(0%) translateY(50%) translateZ(0%);
+    -o-transform: translateX(0%) translateY(50%) translateZ(0);
+    -moz-transform: translateX(0%) translateY(50%) translateZ(0);
    
     /*height: 20%;*/
   }
   .card:focus img, .card:hover img {
-    -webkit-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
-    -moz-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
-    -ms-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
-    -o-transform: translateX(0%) translateY(89%) translateZ(0) scale(1.9);
+    -webkit-transform: translateX(0%) translateY(89%) translateZ(0) scale(0.9);
+    -moz-transform: translateX(0%) translateY(89%) translateZ(0) scale(0.9);
+    -ms-transform: translateX(0%) translateY(89%) translateZ(0) scale(0.9);
+    -o-transform: translateX(0%) translateY(89%) translateZ(0) scale(0.9);
     transform: translateX(0%) translateY(89%) translateZ(0) scale(0.9);
     
   }
